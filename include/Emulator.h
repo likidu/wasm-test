@@ -6,18 +6,18 @@
 
 namespace sn
 {
-    const int NESVideoWidth  = ScanlineVisibleDots;
-    const int NESVideoHeight = VisibleScanlines;
+  const int NESVideoWidth  = ScanlineVisibleDots;
+  const int NESVideoHeight = VisibleScanlines;
 
-    class Emulator
-    {
-    public:
-        Emulator();
-        void run(std::string rom_path);
+  class Emulator
+  {
+  public:
+    Emulator();
+    void run(std::string rom_path);
 
-    private:
-        smk::Window m_window;
-    };
+  private:
+    smk::Window m_window;
+  };
 } // namespace sn
 
 #endif // EMULATOR_H

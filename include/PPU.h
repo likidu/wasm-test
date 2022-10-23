@@ -3,8 +3,8 @@
 
 namespace sn
 {
-    const int VisibleScanlines    = 240;
-    const int ScanlineVisibleDots = 256;
+  const int VisibleScanlines    = 240;
+  const int ScanlineVisibleDots = 256;
 } // namespace sn
 
 #endif // PPU_H
